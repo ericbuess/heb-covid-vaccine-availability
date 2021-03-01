@@ -1,0 +1,16 @@
+{
+  "name": "vaccine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nohup node app.js &",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eric Buess",
+  "license": "ISC",
+  "dependencies": {
+    "pushover-notifications": "^1.2.2",
+    "request": "^2.88.2"
+  }
+}
