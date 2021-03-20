@@ -7,7 +7,8 @@ const vaccineAPIURL =
 var intervalObj;
 
 const CITIES_TO_CHECK = [
-  "TEMPLE, BELTON",
+  "TEMPLE",
+  "BELTON",
   "HARKER HEIGHTS",
   "KILLEEN",
   "COPPERAS COVE",
@@ -30,8 +31,8 @@ const CITIES_TO_CHECK = [
 // ft hood https://heb.secure.force.com/FlexibleScheduler/FSAppointment?event_ID=a8h4P000000GueOQAS&s=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IkZsZXhTY2hlZENlcnQifQ.eyJldmVudElkIjoiYThoNFAwMDAwMDBHdWVPUUFTIiwiZXhwIjoxNjE0NTM3NTQwLCJuYmYiOjE2MTQ1Mzc0MjAsImlhdCI6MTYxNDUzNzQyMCwiaXNzIjoiaHR0cHM6Ly9oZWIuY29tIn0.E7_d_XzzJ8ZunAj89beYkITt8ZW3u9RGohYMf70vq5w1B2DwzO_0jQPwIvHnWh6r_83JMV2r9aYIfnz1OzCGulce29yd9GDjJRyZVMH4xhvkuIc_e34qJeubF0RcPFP-Co2xS9_j56_HQlIF5f10tdLSxs6WTW_MFPHUFDxcaRaJpW9EutHkIFzebaTcfJvQedt-D9G-p8Ed_Ci1kH-6CgvHIFwrKUHWBYb95vWkA3UyVtxb1bMF1uMOtImHxTB8SkE8pvVIpq5HsBs0CoBOSy8fqBj6fibTEpTi7kSGeoiBxDuRAv6LI8Jz7HYNAPEXoKW7LACYGSAgFc9ukpChwA
 
 const pushNotificationAPIURL = "api.pushover.net:443";
-const PUSHOVER_TOKEN = "SET_APP_TOKEN_HERE"; // os.getenv('PUSHOVER_TOKEN')
-const PUSHOVER_USER = "SET_USER_TOKEN_HERE"; // os.getenv('PUSHOVER_USER')
+const PUSHOVER_TOKEN = "ahyqzpz4fh1qq8pp7wccoyatns2ur2"; // os.getenv('PUSHOVER_TOKEN')
+const PUSHOVER_USER = "gtz958ezhi2nwsem9bh8k67sbjo5cr"; // os.getenv('PUSHOVER_USER')
 
 function pushLocations(locationsWithVaccineAvailable) {
   console.log("Vaccine is now available here:");
